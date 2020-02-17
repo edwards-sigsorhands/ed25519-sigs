@@ -5,7 +5,8 @@
   "repository": "git@github.com:edwards-sigsorhands/ed25519-sigs.git",
   "license": "MIT",
   "scripts": {
-    "build": "tsc src/index.d.ts"
+    "build": "tsc src/index.d.ts",
+    "test": "jest"
   },
   "main": "dist/index.js",
   "types": "src/index.d.ts",
@@ -22,7 +23,7 @@
     "node": "*"
   },
   "dependencies": {
-    "ed25519-sigs": "https://github.com/cmanteiga/ed25519-sigs-js"
+    "ed25519-sigs-js": "https://github.com/cmanteiga/ed25519-sigs-js"
   },
   "keywords": [
     "ed25519",
@@ -38,6 +39,9 @@
     "Gabe Leerner"
   ],
   "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
     "typescript": "^3.7.5"
   }
 }
