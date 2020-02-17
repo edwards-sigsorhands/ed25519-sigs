@@ -1,14 +1,14 @@
 {
   "name": "ed25519-sigs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Fast Ed25519 signatures for the browser and nodeJS",
   "repository": "git@github.com:edwards-sigsorhands/ed25519-sigs.git",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc src/index.d.ts"
   },
   "main": "dist/index.js",
-  "types": "dist/node/ed25519_sigs.d.ts",
+  "types": "src/index.d.ts",
   "browser": "dist/browser/ed25519_sigs.js",
   "files": [
     "src",
