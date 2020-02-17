@@ -1,4 +1,4 @@
-import { getMnemonic } from "bip39-ts";
+import { getMnemonic } from "bip39-ts";}
 
 describe("gen_phrase", () => {
   it("gen_phrase", () => {
