@@ -5,7 +5,7 @@
   "repository": "git@github.com:edwards-sigsorhands/ed25519-sigs.git",
   "license": "MIT",
   "scripts": {
-    "build": "tsc src/index.d.ts",
+    "build": "tsc",
     "test": "jest"
   },
   "main": "dist/index.js",
@@ -23,6 +23,7 @@
     "node": "*"
   },
   "dependencies": {
+    "@types/node": "^13.7.1",
     "bip39-ts": "^1.0.6",
     "ed25519-sigs-js": "https://github.com/cmanteiga/ed25519-sigs-js"
   },

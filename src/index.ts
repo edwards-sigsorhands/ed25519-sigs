@@ -4,4 +4,4 @@ export {
   sign,
   verify,
   seed_from_phrase
-} from "ed25519-sigs";
+} from "ed25519-sigs-js";
