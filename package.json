@@ -1,6 +1,6 @@
 {
   "name": "ed25519-sigs",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Fast Ed25519 signatures for the browser and nodeJS",
   "repository": "git@github.com:edwards-sigsorhands/ed25519-sigs.git",
   "license": "MIT",
