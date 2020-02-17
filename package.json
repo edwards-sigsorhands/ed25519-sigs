@@ -1,18 +1,28 @@
 {
   "name": "ed25519-sigs",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Fast Ed25519 signatures for the browser and nodeJS",
   "repository": "git@github.com:edwards-sigsorhands/ed25519-sigs.git",
   "license": "MIT",
-  "dependencies": {
-    "ed25519-sigs": "https://github.com/cmanteiga/ed25519-sigs"
+  "scripts": {
+    "build": "tsc"
   },
-  "main": "src/index.js",
-  "main2": "dist/node/ed25519_sigs_bg.js",
-  "types": "dist/node/ed25519_sigs_bg.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/node/ed25519_sigs.d.ts",
   "browser": "dist/browser/ed25519_sigs.js",
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "tsconfig.json"
+  ],
   "engines": {
     "node": "*"
+  },
+  "dependencies": {
+    "ed25519-sigs": "https://github.com/cmanteiga/ed25519-sigs-js"
   },
   "keywords": [
     "ed25519",
@@ -26,5 +36,8 @@
   "author": "Carlos Mantego <carlosmantego@gmail.com>",
   "contributors": [
     "Gabe Leerner"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
