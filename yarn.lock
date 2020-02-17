@@ -640,6 +640,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bip39-ts@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/bip39-ts/-/bip39-ts-1.0.6.tgz#6a9150c9ef6d5a86fa8dee059488e7c096c6a334"
+  integrity sha512-fXIFsEwe9c1yBVRpKXyUJ3dJo28SA8erW+6uquvOporSFPegaJRjBukPkJ6FzyvjakkDQEoigtQr10MRaaBF/g==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -1004,7 +1009,7 @@ ecc-jsbn@~0.1.1:
 
 "ed25519-sigs-js@https://github.com/cmanteiga/ed25519-sigs-js":
   version "0.1.0"
-  resolved "https://github.com/cmanteiga/ed25519-sigs-js#1932c6e00ad1d6da79779eaea8da94f06334c6b2"
+  resolved "https://github.com/cmanteiga/ed25519-sigs-js#9147bb4b60aadaeef1e2ff9003f827bebe26b7b5"
 
 emoji-regex@^8.0.0:
   version "8.0.0"

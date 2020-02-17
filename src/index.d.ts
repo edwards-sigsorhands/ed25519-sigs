@@ -5,4 +5,5 @@ export {
   verify,
   new_mnemophrase,
   seed_from_phrase
-} from "ed25519-sigs";
+} from "ed25519-sigs-js";
+declare module "bip39-ts";

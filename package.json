@@ -23,7 +23,14 @@
     "node": "*"
   },
   "dependencies": {
+    "bip39-ts": "^1.0.6",
     "ed25519-sigs-js": "https://github.com/cmanteiga/ed25519-sigs-js"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
   },
   "keywords": [
     "ed25519",
@@ -38,10 +45,18 @@
   "contributors": [
     "Gabe Leerner"
   ],
-  "devDependencies": {
-    "@types/jest": "^25.1.2",
-    "jest": "^25.1.0",
-    "ts-jest": "^25.2.0",
-    "typescript": "^3.7.5"
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "wasm"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$",
+    "testPathIgnorePatterns": [
+      ".old"
+    ]
   }
 }
