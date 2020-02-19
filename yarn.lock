@@ -1009,7 +1009,7 @@ ecc-jsbn@~0.1.1:
 
 "ed25519-sigs-js@https://github.com/cmanteiga/ed25519-sigs-js":
   version "0.1.0"
-  resolved "https://github.com/cmanteiga/ed25519-sigs-js#b79d1e2245f28dc572b6f1a22992f9306f9570f3"
+  resolved "https://github.com/cmanteiga/ed25519-sigs-js#260a646373d3d9e7e1dda06072c8e4e33b29557e"
 
 emoji-regex@^8.0.0:
   version "8.0.0"
