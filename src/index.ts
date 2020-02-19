@@ -1,6 +1,7 @@
 export {
-  gen_pubKey,
-  gen_privKey,
+  // gen_pubKey,
+  // gen_privKey,
+  gen_keypair,
   sign,
   verify,
   seed_from_phrase
