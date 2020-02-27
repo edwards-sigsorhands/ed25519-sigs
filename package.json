@@ -23,11 +23,11 @@
     "node": "*"
   },
   "dependencies": {
-    "@types/node": "^13.7.1",
     "bip39-ts": "^1.0.6",
     "ed25519-sigs-js": "https://github.com/cmanteiga/ed25519-sigs-js"
   },
   "devDependencies": {
+    "@types/node": "^13.7.1",
     "@types/jest": "^25.1.2",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.0",
